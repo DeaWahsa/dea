@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1>Hai sayangggggg fattaah</h1>
+        <img src="https://i1.wp.com/tutorialaplikasi.com/wp-content/uploads/2016/09/Animasi-spongeboob-lucu.gif?resize=200%2C200">
+        <h1>Masih kta sayang ji ka hehehe?</h1>
+        <button id='btn_mau' onclick='alert("I love you sayangku")'>Masih</button>&nbsp;
+        <button id='btn_gamau' onclick='gamau(this)' style='position:absolute'>tidak</button>
+    </body>
+    <script>
+        function gamau(id){
+            var mau = document.getElementById('btn_mau');
+            var i = Math.floor(Math.random()*300)+1;
+            var j = Math.floor(Math.random()*100)+mau.offsetTop;
+            id.style.left = i+'px';
+            id.style.top = j+'px';
+        }
+    </script>
+</html>
